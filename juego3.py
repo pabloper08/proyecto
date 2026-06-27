@@ -18,7 +18,7 @@ archivo.close()
 indice_aleatorio = random.randint(0, len(chistes) - 1)
 chiste_elegido = chistes[indice_aleatorio]
 
-# Separar la pregunta del remate usando el guion bajo (_)
+# Separar la pregunta del remate usando el guion bajo(_)
 if "_" in chiste_elegido:
     partes = chiste_elegido.split("_")
     pregunta = partes[0].strip()
